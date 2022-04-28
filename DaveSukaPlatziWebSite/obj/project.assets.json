@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david.grada\\Documents\\davesuka\\personal\\cursos\\c-sharp\\DaveSukaPlatziWebSite\\DaveSukaPlatziWebSite\\DaveSukaPlatziWebSite.csproj",
+      "projectUniqueName": "C:\\Users\\david.grada\\Documents\\davesuka\\personal\\cursos\\web-apps-azure\\DaveSukaWebSite\\DaveSukaPlatziWebSite\\DaveSukaPlatziWebSite.csproj",
       "projectName": "DaveSukaPlatziWebSite",
-      "projectPath": "C:\\Users\\david.grada\\Documents\\davesuka\\personal\\cursos\\c-sharp\\DaveSukaPlatziWebSite\\DaveSukaPlatziWebSite\\DaveSukaPlatziWebSite.csproj",
+      "projectPath": "C:\\Users\\david.grada\\Documents\\davesuka\\personal\\cursos\\web-apps-azure\\DaveSukaWebSite\\DaveSukaPlatziWebSite\\DaveSukaPlatziWebSite.csproj",
       "packagesPath": "C:\\Users\\david.grada\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david.grada\\Documents\\davesuka\\personal\\cursos\\c-sharp\\DaveSukaPlatziWebSite\\DaveSukaPlatziWebSite\\obj\\",
+      "outputPath": "C:\\Users\\david.grada\\Documents\\davesuka\\personal\\cursos\\web-apps-azure\\DaveSukaWebSite\\DaveSukaPlatziWebSite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\david.grada\\AppData\\Roaming\\NuGet\\NuGet.Config",
