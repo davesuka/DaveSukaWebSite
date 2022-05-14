@@ -33,6 +33,11 @@
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+        <div class="text-center">
+            <h1 class="display-4">LeMape</h1>
+            <div id="map"></div>
+        </div>
+        
     </div>
 
     <footer class="border-top footer text-muted">
@@ -43,6 +48,27 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+   
+    <script async type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOkwaqBbVu06pu3v3wG9hTQbPd-Gj7eQs&callback=initMap"></script>
+    <script type="text/javascript">
+        function initMap() {
+            var myLatLng = {
+                lat: 19.053430,
+                lng: -98.223228
+            };
+
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 10,
+                center: myLatLng
+            });
+
+            var markerx = new google.maps.Marker({
+                position: myLatLng,
+                map: map
+            });
+        }
+    //initMap(); Esto es innecesario porque en el callback de la URL lo estás llamando.
+    </script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>
